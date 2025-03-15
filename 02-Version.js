@@ -13,7 +13,7 @@
    return;
 //para salir de la funcion si no se escribió algun nombre
 } else if (!isNaN(nombreAmigo)) { 
-    alert("Por favor,ingrese un nombre válido");
+    alert("Por favor,ingrese un nombre válido no se aceptan números");
     return;
 }
 //ingresar el Array por comando push
